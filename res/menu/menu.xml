@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<!--     <item -->
+<!--         android:id="@+id/dash" -->
+<!--         android:icon="@drawable/ic_dashboard" -->
+<!--         android:orderInCategory="100" -->
+<!--         android:title="Dashboard"  -->
+<!--         android:menuCategory="container"/> -->
+    
+<!--     <item -->
+<!--         android:id="@+id/form" -->
+<!--         android:icon="@drawable/ic_form" -->
+<!--         android:title="Formulaire"  -->
+<!--         android:orderInCategory="101" -->
+<!--         android:menuCategory="container"/> -->
+    
+<!--     <item -->
+<!--         android:id="@+id/profile" -->
+<!--         android:icon="@drawable/ic_profile" -->
+<!--         android:title="Parametre" -->
+<!--         android:orderInCategory="102"  -->
+<!--         android:menuCategory="container"/> -->
+    
+    <item
+        android:id="@+id/deconnecte"
+        android:icon="@drawable/ic_deconnection"
+        android:title="Déconnexion" 
+        android:showAsAction="always"
+        android:orderInCategory="103"
+        android:menuCategory="system"/>
+
+</menu>

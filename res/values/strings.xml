@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bilifit</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_verif_login">Verification Login</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_affiche_form">Formulaire</string>
+    <string name="title_activity_remplir_form">Collecte</string>
+    <string name="title_activity_modif_profile">Modifier Profile</string>
+    <string name="title_activity_dashboard">Dashboards</string>
+    <string name="title_activity_list_form">Formulaires</string>
+    <string name="title_activity_install">Synchronisation</string>
+    <string name="title_activity_activity_enregistrer">Collecte</string>
+    <string name="title_activity_recuperer">Recuperer</string>
+    <string name="title_activity_notif">Notiffication</string>
+    <string name="title_activity_synchron">Synchronisation</string>
+    <string name="title_activity_main_activity">menu</string>
+
+</resources>
