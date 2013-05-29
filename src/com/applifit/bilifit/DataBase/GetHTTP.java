@@ -80,8 +80,11 @@ public class GetHTTP {
 				StringBuilder sb = new StringBuilder();
 				try { 
 					String cur;   
+					if ((cur = buffer.readLine()) != null){
+						sb.append(cur);
+					}
 					while ((cur = buffer.readLine()) != null) {   
-						sb.append(cur).append("\n");  
+						sb.append("\n").append(cur);  
 					}  
 				} catch (IOException e) {  
 					e.printStackTrace();  
