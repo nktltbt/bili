@@ -55,7 +55,8 @@ public class DbAdapter extends SQLiteOpenHelper{
 		// la table optionsApp
 		db.execSQL(" create table optionApp(" +
 				"id integer primary key autoincrement, nom text, valeur text);");
-		
+		db.execSQL(" create table formulaireunit(idF integer,id integer,indice integer primary key autoincrement,nom text,prenom text,date text);");
+	    db.execSQL(" create table valeurunit(id integer primary key autoincrement, valeur text, idElement integer, idUser integer, date text, indice integer);");
 	}
 	
 	@Override

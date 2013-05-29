@@ -17,5 +17,6 @@
     <string name="title_activity_notif">Notiffication</string>
     <string name="title_activity_synchron">Synchronisation</string>
     <string name="title_activity_main_activity">menu</string>
+    <string name="title_activity_form_download">FormDownload</string>
 
 </resources>

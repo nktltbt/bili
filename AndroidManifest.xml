@@ -11,7 +11,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
@@ -28,7 +28,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-         <activity
+        <activity
             android:name="com.applifit.bilifit.MainActivity"
             android:label="@string/title_activity_main_activity" >
         </activity>
@@ -81,26 +81,30 @@
             android:name="com.applifit.bilifit.DataBase.MyService"
             android:exported="false" >
             <intent-filter>
-	    		<action android:name="com.applifit.bilifit.DataBase.MyService" />
-  			</intent-filter>
+                <action android:name="com.applifit.bilifit.DataBase.MyService" />
+            </intent-filter>
         </service>
-         <service
+        <service
             android:name="com.applifit.bilifit.DataBase.ServiceCollecte"
             android:exported="false" >
             <intent-filter>
-	    		<action android:name="com.applifit.bilifit.DataBase.ServiceCollecte" />
-  			</intent-filter>
+                <action android:name="com.applifit.bilifit.DataBase.ServiceCollecte" />
+            </intent-filter>
         </service>
 
         <activity
             android:name="com.applifit.bilifit.Synchron"
             android:label="@string/title_activity_synchron" >
             <intent-filter>
-	    		<action android:name="android.intent.action.BOOT_COMPLETED" />
-	    		<category android:name="android.intent.category.HOME" />
-  			</intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.applifit.bilifit.FormDownload"
+            android:label="@string/title_activity_form_download" >
         </activity>
     </application>
-    
 
 </manifest>
