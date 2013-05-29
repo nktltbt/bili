@@ -13,9 +13,10 @@ public class Valeur {
 	int idUser;
 	String date;
 	int indice;
+	int version;
 	
 	
-	public Valeur(int id, String valeur, int idElement, int idUser, String date, int indice) {
+	public Valeur(int id, String valeur, int idElement, int idUser, String date, int indice,int version) {
 		super();
 		this.id = id;
 		this.valeur = valeur;
@@ -23,16 +24,18 @@ public class Valeur {
 		this.idUser = idUser;
 		this.date = date;
 		this.indice = indice;
+		this.version=version;
 	}
 
 
-	public Valeur(String valeur, int idElement, int idUser, String date, int indice) {
+	public Valeur(String valeur, int idElement, int idUser, String date, int indice,int version) {
 		super();
 		this.valeur = valeur;
 		this.idElement = idElement;
 		this.idUser = idUser;
 		this.date = date;
 		this.indice = indice;
+		this.version=version;
 	}
 	
 	public String getDate() {
@@ -93,4 +96,20 @@ public class Valeur {
 	public int getId() {
 		return id;
 	}
+
+
+	public int getVersion() {
+		return version;
+	}
+
+
+	public void setVersion(int version) {
+		this.version = version;
+	}
+
+
+	public void setId(int id) {
+		this.id = id;
+	}
+	
 }

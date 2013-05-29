@@ -51,7 +51,7 @@ public class DbValeur {
 			if(c!=null && c.getCount()!=0) {
 				c.moveToFirst();
 				c.moveToLast();
-				v = new Valeur(c.getInt(0), c.getString(1),c.getInt(2), c.getInt(3), c.getString(4), c.getInt(5));
+				v = new Valeur(c.getInt(0), c.getString(1),c.getInt(2), c.getInt(3), c.getString(4), c.getInt(5),2);
 				return v;
 			}
 			else return null;
