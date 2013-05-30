@@ -18,5 +18,10 @@
     <string name="title_activity_synchron">Synchronisation</string>
     <string name="title_activity_main_activity">menu</string>
     <string name="title_activity_form_download">FormDownload</string>
+    <string name="title_activity_form_web">FormWeb</string>
+    <string name="title_activity_valeur_dowload">ValeurDowload</string>
+    <string name="title_activity_consul_form">ConsulForm</string>
+    <string name="title_activity_list_valeur">ListValeur</string>
+    <string name="title_activity_valeur_non_connect">ValeurNonConnect</string>
 
 </resources>

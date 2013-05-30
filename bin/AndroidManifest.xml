@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.applifit.bilifit"
+    package="com.applifit.bi_lifit1"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -11,7 +11,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
@@ -20,7 +20,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.applifit.bilifit.Main"
+            android:name="com.applifit.bi_lifit1.Main"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,79 +28,103 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-         <activity
-            android:name="com.applifit.bilifit.MainActivity"
+        <activity
+            android:name="com.applifit.bi_lifit1.MainActivity"
             android:label="@string/title_activity_main_activity" >
         </activity>
         <activity
-            android:name="com.applifit.bilifit.VerifLogin"
+            android:name="com.applifit.bi_lifit1.VerifLogin"
             android:label="@string/title_activity_verif_login" >
         </activity>
         <activity
-            android:name="com.applifit.bilifit.Profile"
+            android:name="com.applifit.bi_lifit1.Profile"
             android:label="@string/title_activity_profile" >
         </activity>
         <activity
-            android:name="com.applifit.bilifit.AfficheForm"
+            android:name="com.applifit.bi_lifit1.AfficheForm"
             android:label="@string/title_activity_affiche_form" >
         </activity>
         <activity
-            android:name="com.applifit.bilifit.RemplirForm"
+            android:name="com.applifit.bi_lifit1.RemplirForm"
             android:label="@string/title_activity_remplir_form" >
         </activity>
         <activity
-            android:name="com.applifit.bilifit.ModifProfile"
+            android:name="com.applifit.bi_lifit1.ModifProfile"
             android:label="@string/title_activity_modif_profile" >
         </activity>
         <activity
-            android:name="com.applifit.bilifit.Dashboard"
+            android:name="com.applifit.bi_lifit1.Dashboard"
             android:label="@string/title_activity_dashboard" >
         </activity>
         <activity
-            android:name="com.applifit.bilifit.ListForm"
+            android:name="com.applifit.bi_lifit1.ListForm"
             android:label="@string/title_activity_list_form" >
         </activity>
         <activity
-            android:name="com.applifit.bilifit.ActivityEnregistrer"
+            android:name="com.applifit.bi_lifit1.ActivityEnregistrer"
             android:label="@string/title_activity_activity_enregistrer" >
         </activity>
         <activity
-            android:name="com.applifit.bilifit.DataBase.Install"
+            android:name="com.applifit.bi_lifit1.DataBase.Install"
             android:label="@string/title_activity_install" >
         </activity>
         <activity
-            android:name="com.applifit.bilifit.Recuperer"
+            android:name="com.applifit.bi_lifit1.Recuperer"
             android:label="@string/title_activity_recuperer" >
         </activity>
         <activity
-            android:name="com.applifit.bilifit.Notif"
+            android:name="com.applifit.bi_lifit1.Notif"
             android:label="@string/title_activity_notif" >
         </activity>
 
         <service
-            android:name="com.applifit.bilifit.DataBase.MyService"
+            android:name="com.applifit.bi_lifit1.DataBase.MyService"
             android:exported="false" >
             <intent-filter>
-	    		<action android:name="com.applifit.bilifit.DataBase.MyService" />
-  			</intent-filter>
+                <action android:name="com.applifit.bi_lifit1.DataBase.MyService" />
+            </intent-filter>
         </service>
-         <service
-            android:name="com.applifit.bilifit.DataBase.ServiceCollecte"
+        <service
+            android:name="com.applifit.bi_lifit1.DataBase.ServiceCollecte"
             android:exported="false" >
             <intent-filter>
-	    		<action android:name="com.applifit.bilifit.DataBase.ServiceCollecte" />
-  			</intent-filter>
+                <action android:name="com.applifit.bi_lifit1.DataBase.ServiceCollecte" />
+            </intent-filter>
         </service>
 
         <activity
-            android:name="com.applifit.bilifit.Synchron"
+            android:name="com.applifit.bi_lifit1.FormDownload"
+            android:label="@string/title_activity_form_download" >
+        </activity>
+        <activity
+            android:name="com.applifit.bi_lifit1.Synchron"
             android:label="@string/title_activity_synchron" >
             <intent-filter>
-	    		<action android:name="android.intent.action.BOOT_COMPLETED" />
-	    		<category android:name="android.intent.category.HOME" />
-  			</intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.applifit.bi_lifit1.FormWeb"
+            android:label="@string/title_activity_form_web" >
+        </activity>
+        <activity
+            android:name="com.applifit.bi_lifit1.ValeurDowload"
+            android:label="@string/title_activity_valeur_dowload" >
+        </activity>
+        <activity
+            android:name="com.applifit.bi_lifit1.ConsulForm"
+            android:label="@string/title_activity_consul_form" >
+        </activity>
+        <activity
+            android:name="com.applifit.bi_lifit1.ListValeur"
+            android:label="@string/title_activity_list_valeur" >
+        </activity>
+        <activity
+            android:name="com.applifit.bi_lifit1.ValeurNonConnect"
+            android:label="@string/title_activity_valeur_non_connect" >
         </activity>
     </application>
-    
 
 </manifest>
